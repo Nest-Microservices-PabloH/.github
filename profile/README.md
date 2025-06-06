@@ -14,7 +14,11 @@ Este proyecto implementa una arquitectura de microservicios moderna y escalable 
 - **NATS**: Sistema de mensajería para la comunicación entre microservicios
 - **Docker**: Containerización de servicios
 - **PostgreSQL**: Base de datos principal
+- **MongoDB Atlas**: Base de datos NoSQL en la nube
 - **TypeScript**: Lenguaje de programación principal
+- **Stripe**: Procesamiento de pagos
+- **Google Cloud Platform**: Infraestructura en la nube
+- **Kubernetes**: Orquestación de contenedores
 
 ## 🌟 Características
 
@@ -24,12 +28,18 @@ Este proyecto implementa una arquitectura de microservicios moderna y escalable 
 - 📊 Monitoreo y logging centralizado
 - 🚀 Alta disponibilidad y escalabilidad
 - 🛡 Manejo de errores robusto
+- 💳 Integración con Stripe para pagos
+- 🔔 Sistema de webhooks para eventos
+- ☁️ Despliegue en Google Cloud Platform
+- 🎯 Orquestación con Kubernetes
+- 📱 API RESTful para integración con clientes
 
 ## 🏗 Estructura del Proyecto
 
-El sistema está compuesto por varios microservicios independientes, cada uno con su propia base de datos y responsabilidades específicas:
+El sistema está compuesto por los siguientes microservicios independientes, cada uno con su propia base de datos y responsabilidades específicas:
 
-- **Servicio de Productos**: Gestión de catálogo de productos
-- **Servicio de Pedidos**: Procesamiento de órdenes
-- **Servicio de Usuarios**: Gestión de usuarios y autenticación
-- **API Gateway**: Punto de entrada unificado para los clientes
+- **auth-ms**: Gestión de autenticación y autorización de usuarios
+- **client-gateway**: API Gateway para la gestión de clientes
+- **orders-ms**: Procesamiento y gestión de órdenes
+- **payments-ms**: Procesamiento de pagos y transacciones con Stripe
+- **products-ms**: Gestión del catálogo de productos
