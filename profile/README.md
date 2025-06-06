@@ -13,7 +13,7 @@ Este proyecto implementa una arquitectura de microservicios moderna y escalable 
 - **Prisma**: ORM moderno para la gestión de bases de datos
 - **NATS**: Sistema de mensajería para la comunicación entre microservicios
 - **Docker**: Containerización de servicios
-- **PostgreSQL**: Base de datos principal
+- **PostgreSQL**: Base de datos principal con Neon Tech
 - **MongoDB Atlas**: Base de datos NoSQL en la nube
 - **TypeScript**: Lenguaje de programación principal
 - **Stripe**: Procesamiento de pagos
