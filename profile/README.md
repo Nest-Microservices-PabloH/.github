@@ -18,7 +18,7 @@ Este proyecto implementa una arquitectura de microservicios moderna y escalable 
 - **TypeScript**: Lenguaje de programación principal
 - **Stripe**: Procesamiento de pagos
 - **Google Cloud Platform**: Infraestructura en la nube
-- **Kubernetes**: Orquestación de contenedores
+- **Kubernetes**: Orquestación de contenedores con helm
 
 ## 🌟 Características
 
